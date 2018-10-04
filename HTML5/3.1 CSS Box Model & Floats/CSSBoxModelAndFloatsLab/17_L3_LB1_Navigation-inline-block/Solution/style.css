@@ -1,0 +1,51 @@
+body {
+    padding: 5rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header p{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-block;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 0.2rem;
+}
+
+
+header nav li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    background: rgb(221, 221, 221);
+    color: rgb(52, 131, 91);
+    border-radius: 0.5rem;
+}
+
+header nav li a:hover{
+    background: rgb(48, 180, 88);
+    color: rgb(255, 255, 255);
+}
+
+.site {
+    margin: 0 auto;
+    max-width: 60rem;
+}
+
+.site header:first-of-type {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+.site-title a {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    padding-right: 5vw;
+    font-style: bold;
+}
