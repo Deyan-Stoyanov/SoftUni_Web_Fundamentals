@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    flex-flow: column;
+    flex-direction: column;
+}
+
+footer {
+    color: rgb(255, 255, 255);
+    background-color: rgb(102, 102, 102);
+    margin-top: auto;
+}
+
+main{
+    padding: 0 2rem;
+}
+
+.site-title {
+    padding-left: 2rem;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+footer p {
+    padding-left: 2rem;
+}
