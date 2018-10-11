@@ -1,0 +1,73 @@
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+body {
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.viewport {
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.viewport.first {
+    background: -moz-linear-gradient(45deg, rgba(25, 92, 157, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(25, 92, 157, 1)), color-stop(100%, rgba(0, 128, 128, 1)));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(45deg, rgba(25, 92, 157, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(45deg, rgba(25, 92, 157, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(25, 92, 157, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    /* ie10+ */
+    background: linear-gradient(45deg, rgba(25, 92, 157, 1) 0%, rgba(0, 128, 128, 1) 100%);
+    /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008080', endColorstr='#195C9D', GradientType=1);
+    /* ie6-9 */
+}
+
+.viewport.second {
+    background: rgba(231, 56, 39, 1);
+    /* Old Browsers */
+    background: -moz-linear-gradient(left, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 29%, rgba(246, 41, 12, 1) 49%, rgba(241, 111, 92, 1) 50%, rgba(248, 80, 50, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(231, 56, 39, 1)), color-stop(29%, rgba(240, 47, 23, 1)), color-stop(49%, rgba(246, 41, 12, 1)), color-stop(50%, rgba(241, 111, 92, 1)), color-stop(100%, rgba(248, 80, 50, 1)));
+    /* Chrome, Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 29%, rgba(246, 41, 12, 1) 49%, rgba(241, 111, 92, 1) 50%, rgba(248, 80, 50, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 29%, rgba(246, 41, 12, 1) 49%, rgba(241, 111, 92, 1) 50%, rgba(248, 80, 50, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 29%, rgba(246, 41, 12, 1) 49%, rgba(241, 111, 92, 1) 50%, rgba(248, 80, 50, 1) 100%);
+    /* IE 10+ */
+    background: linear-gradient(to right, rgba(231, 56, 39, 1) 0%, rgba(240, 47, 23, 1) 29%, rgba(246, 41, 12, 1) 49%, rgba(241, 111, 92, 1) 50%, rgba(248, 80, 50, 1) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e73827', endColorstr='#f85032', GradientType=1);
+}
+
+.card {
+    display: block;
+    position: relative;
+}
+
+img {
+    max-height: 40vh;
+    max-width: 40vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+i {
+    position: absolute;
+    bottom: 15px;
+    right: 16px;
+    color: rgb(255, 255, 255);
+}

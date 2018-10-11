@@ -1,0 +1,91 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+body {
+    padding: 5rem;
+    color: rgb(45, 45, 45);
+}
+
+i {
+    color: rgb(0, 0, 0);
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+}
+
+input {
+    margin-left: -1.5rem;
+    padding-left: 1.6rem;
+    height: 2rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(196, 194, 194);
+    width: 50vh;
+    max-width: 100%;
+    margin-top: 8px;
+}
+
+input:not(.button):hover {
+    border: 2px solid rgb(0, 189, 25);
+}
+
+section:hover i{
+    color: rgb(0, 189, 25);
+}
+
+fieldset {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 1.5rem 1rem;
+    border: none;
+}
+
+form {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 60vh;
+    max-height: 40vh;
+}
+
+body>legend {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    margin-bottom: -2rem;
+    overflow: hidden;
+    width: 10vh;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    opacity: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+fieldset>p {
+    width: 1rem;
+}
+
+p {
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+.button {
+    max-width: 4rem;
+    max-height: 2rem;
+    margin: 0.5rem 1rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 0.1rem;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header, main, aside, footer {
+    background-color: rgb(255, 255, 255);
+    text-align: start;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 0.5rem rgb(119, 119, 119);
+}
+
+header {
+    height: 30%;
+    width: 100%;
+    padding: 20px 50px 50px 20px;
+}
+
+main {
+    width: 60%;
+    padding: 20px 100px 200px 20px;
+}
+
+aside {
+    float: right;
+    width: 35%;
+    padding: 20px 100px 200px 20px;
+}
+
+footer {
+    height: 30%;
+    width: 100%;
+    padding: 20px 50px 50px 20px;
+}

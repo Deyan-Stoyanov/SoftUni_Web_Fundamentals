@@ -1,0 +1,110 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url('https://use.fontawesome.com/releases/v5.3.1/css/all.css');
+
+body {
+    padding: 5rem;
+    color: rgb(45, 45, 45);
+}
+
+i {
+    color: rgb(0, 0, 0);
+    padding-left: 8px;
+    padding-top: 5px;
+    position: relative;
+    margin-left: 5rem;
+}
+
+input {
+    margin-left: -1.4rem;
+    padding-left: 1.7rem;
+    height: 1.8rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgb(196, 194, 194);
+    width: 35vh;
+    max-width: 100%;
+}
+
+fieldset {
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 1.5rem 1rem;
+    border: none;
+}
+
+form {
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 60vh;
+    max-height: 40vh;
+}
+
+body>legend {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0.3rem;
+    margin-bottom: -2rem;
+    overflow: hidden;
+    width: 10vh;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+    position: absolute;
+    opacity: 100%;
+    background-color: rgb(233, 233, 233);
+}
+
+fieldset>p {
+    width: 1rem;
+}
+
+p {
+    font-weight: bold;
+    padding-right: 0.5rem;
+}
+
+button {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: rgb(45, 45, 45);
+    color: rgb(226, 226, 226);
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border-style: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    input {
+        margin: 10px 0;
+        max-width: 100%;
+        position: relative;
+    }
+
+    i {
+        position: absolute;
+    }
+
+    form {
+        flex-flow: column;
+        justify-content: space-evenly;
+        overflow: hidden;
+    }
+
+    fieldset {
+        padding: 0.5rem 0;
+        margin: 0;
+        display: flex;
+        flex-flow: column;
+    }
+}
