@@ -1,0 +1,10 @@
+.button {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    max-height: 2rem;
+    color: rgb(45, 45, 45);
+    font-weight: bold;
+    border-radius: 0.3rem;
+    border: 2px solid rgb(45, 45, 45);
+    cursor: pointer;
+}
