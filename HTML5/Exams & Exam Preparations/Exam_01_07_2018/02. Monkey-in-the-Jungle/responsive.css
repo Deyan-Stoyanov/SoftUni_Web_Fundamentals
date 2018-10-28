@@ -1,0 +1,44 @@
+@media screen and (max-width: 480px) {
+    section {
+        display: flex;
+        flex-flow: column;
+    }
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+    .wrapper.style2 .content .gallery,
+    .wrapper .spotlight,
+    .wrapper .spotlight-alt{
+        display: flex;
+        flex-flow: column;
+        align-content: space-between;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .wrapper.style2 .content .gallery div,
+    .wrapper .spotlight *{
+        width: 100%;
+    }
+
+    .wrapper.style1 .content,
+    .wrapper.style2 .content,
+    .wrapper.style2 .content .gallery,
+    .wrapper > header.special,
+    .wrapper .spotlight .inner,
+    .wrapper .spotlight-alt .inner,
+    section .wrapper.style2  {
+        padding: 1rem;
+    }
+
+    main>.inner {
+        max-width: 100%;
+        margin: 0;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+    }
+}
