@@ -123,7 +123,12 @@ form + p > a ,
     text-align: center;
     margin: 1rem 0;
     color: rgba(0, 0, 0, 0.5);
-    text-decoration: underline;
+}
+
+form + p > a ,
+.create-account,
+.create-account a{
+	text-decoration: underline;
 }
 
 .create-account {
