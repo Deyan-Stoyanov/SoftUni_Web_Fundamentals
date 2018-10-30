@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+}
+
+body {
+    background-image: url("images/bg-01.jpg") no-repeat left top;
+    background-image: linear-gradient(rgba(125, 101, 204, 0.7), rgba(125, 101, 204, 0.7)), url("images/bg-01.jpg");
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+}
+
+.content img {
+    width: 20rem;
+    height: auto;
+    margin: 2rem;
+}
+
+.content {
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 3rem 8rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content > * {
+    margin: 5rem 10rem;
+}
+
+form fieldset {
+    border: none;
+    display: flex;
+    flex-direction: row;
+}
+
+form input,
+textarea {
+    border: none;
+    background-color: rgb(230, 230, 230);
+    margin: 0.2rem;
+    border-radius: 25px;
+    padding-left: 3rem;
+    font-size: 1rem;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+}
+
+form input {
+    height: 3rem;
+    width: 20rem;
+}
+
+fieldset i {
+    position: absolute;
+    margin: 0 0 1rem 0;
+    padding: 1rem;
+    font-size: 1.1rem;
+    color: rgb(165, 167, 171);
+}
+
+textarea {
+    padding: 1rem;
+    height: 10rem;
+    width: 21rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    width: 20rem;
+    text-align: center;
+    background-color: rgb(125, 101, 204);
+    padding: 1rem 10rem;
+    border-radius: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(51, 51, 51);
+}
+
+fieldset:hover i,
+fieldset:active i {
+    color: rgb(125, 101, 204);
+    padding-left: 0.8rem;
+}

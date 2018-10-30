@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.site{
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    margin: 3rem 10rem;
+}
+
+.header{
+    border-left: 2px solid rgb(0, 0, 0);
+    padding-left: 1rem;
+    font-weight: lighter;
+}
+.header h2{
+    font-size: 2rem;
+}
+
+.header h4{
+    opacity: 0.5;
+}
+
+article{
+    margin: 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content p:first-child{
+    padding-right: 2rem;
+}
+
+article img{
+    height: 60%;
+    width: auto;
+}
