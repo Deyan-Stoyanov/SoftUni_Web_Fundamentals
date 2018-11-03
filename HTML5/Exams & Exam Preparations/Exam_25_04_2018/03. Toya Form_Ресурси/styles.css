@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.4.2/css/all.css');
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: rgb(150, 205, 52);
+    color: rgb(247, 247, 247);
+    text-align: center;
+}
+
+header>h1 {
+    margin-bottom: 1rem;
+}
+
+main .info {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0 2rem 0;
+}
+
+main .info>span {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    text-align: center;
+}
+
+main .info>span h3 {
+    color: rgb(150, 205, 52);
+}
+
+main .info h3,
+main .info p {
+    opacity: 0.8;
+}
+
+.map p span{
+    color: rgb(150, 205, 52);
+}
+
+.content {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem 4rem;
+}
+
+.content img {
+    width: 100%;
+    height: auto;
+    margin: 1rem 2rem;
+}
+
+.content .map {
+    width: 30%;
+}
+
+.content form {
+    width: 60%;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    border: none;
+    height: auto;
+    margin: 1rem 0;
+}
+
+form fieldset:nth-child(5)
+{
+    width: 100%;
+    justify-content: start;
+}
+
+form fieldset:nth-child(5) textarea{
+    width: 87%;
+}
+
+form fieldset p{
+    display: block;
+    position: absolute;
+    opacity: 0.4;
+    text-transform: uppercase;
+}
+
+form fieldset input{
+   margin-top: 2rem;
+}
+
+form fieldset i{
+    position: absolute;
+    margin: 2.5rem 0 0 18rem;
+   opacity: 0.5;
+
+}
+
+form fieldset input{
+    height: 1.8rem;
+    width: 70%;
+}
+
+form fieldset input,
+form fieldset textarea{
+    padding: 0.2rem 0.5rem;
+    border: 3px solid rgb(122, 122, 122);
+    opacity: 0.7;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.button{
+    padding: 0.5rem 1rem;
+    background-color: rgb(150, 205, 52);
+    color: rgb(247, 247, 247);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2px;
+    text-decoration: none;
+}

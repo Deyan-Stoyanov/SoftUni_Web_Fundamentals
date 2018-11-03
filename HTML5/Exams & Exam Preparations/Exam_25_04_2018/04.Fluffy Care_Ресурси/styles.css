@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Neucha");
+
+@import url("https://use.fontawesome.com/releases/v5.4.2/css/all.css");
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    content: "";
+}
+
+html {
+    font-family: "Neucha", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+}
+
+header img {
+    height: 8rem;
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+header .logo-container {
+    width: 98%;
+    align-content: center;
+}
+
+header .aside {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 2%;
+    margin-top: 0.5rem;
+}
+
+header .aside i {
+    margin: 0.3rem 0;
+    font-size: 1.3rem;
+}
+
+main .main.header {
+    background: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    height: 28rem;
+}
+
+main .main.header ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main.header ul li {
+    list-style: none outside;
+    padding: 1rem 2.5rem;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+main .main.header ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main .main.header h1 {
+    width: 30%;
+    font-size: 5.3rem;
+    margin: 3rem auto;
+    margin-left: auto;
+    display: block;
+}
+
+main .main.content {
+    padding: 4rem 12rem;
+}
+
+main .main.content span img {
+    width: 5rem;
+    height: auto;
+}
+
+main .main.content span {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15rem;
+}
+
+main .main.content span > * {
+    margin: 0.5rem;
+}
+
+main .main.content .articles {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .main.content .content-headers {
+    font-size: 160%;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+main .main.content .content-headers > * {
+    margin-bottom: 1rem;
+}
+
+main .main.content .button {
+    background-color: rgb(145, 213, 226);
+    padding: 0.5rem;
+    border-radius: 2px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+main .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+}
+
+main .gallery img {
+    width: 33.3%;
+}
+
+
+footer{
+    background-color: rgb(130, 202, 156);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0 0.5rem 0;
+    font-size: 120%;
+}
+
+footer h3,
+footer p{
+    margin-bottom: 0.8rem;
+}
