@@ -1,0 +1,220 @@
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+.header {
+    background: url(img/background-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header img {
+    padding: 1rem;
+    width: 6rem;
+    height: auto;
+    margin-left: auto;
+}
+
+.header h2,
+.header p,
+.header a,
+.header h1,
+.header div {
+    text-align: center;
+}
+
+.header h1 {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.header h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+    color: rgba(22, 22, 22, 0.4);
+    margin-bottom: 0;
+}
+
+.header p {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 0 1px 2px rgb(175, 175, 175);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header div {
+    margin-top: 2rem;
+}
+
+.header div {
+    padding-top: 5rem;
+}
+
+.header div a {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: rgb(230, 230, 230);
+}
+
+.button {
+    background-color: rgb(43, 43, 43);
+    padding: 0.5rem 0.7rem;
+    border-radius: 25px;
+}
+
+.header div a:nth-child(2) {
+    background-color: rgb(238, 118, 5);
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+}
+
+.menu i {
+    font-size: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    color: rgb(193, 128, 64);
+    border: 3px solid rgb(193, 128, 64);
+    border-radius: 50%;
+    padding: 1.3rem;
+}
+
+.menu article>* {
+    margin-bottom: 1.5rem;
+}
+
+.menu article {
+    width: 25%;
+    text-align: center;
+    margin: 1rem;
+}
+
+.menu h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-shadow: 0 1px 2px rgb(175, 175, 175);
+}
+
+.gallery {
+    background: url(img/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.gallery section {
+    border: 2px solid rgb(238, 118, 5);
+    padding: 2rem;
+    margin: 0 auto 2rem 1rem;
+    width: 30%;
+    background-color: rgb(58, 58, 58);
+    color: rgb(230, 230, 230);
+    text-align: center;
+    height: 50vh;
+}
+
+.gallery section>h3,
+.gallery section>p {
+    padding-bottom: 1.5rem;
+}
+
+.gallery h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.subtitle {
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.gallery section div {
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.gallery a {
+    display: inline-block;
+    margin: 2rem;
+    background: linear-gradient(to right, rgb(226, 139, 39), rgb(241, 219, 169));
+    border-radius: 50%;
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+    width: 4rem;
+    height: 4rem;
+    vertical-align: middle;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    color: rgb(230, 230, 230);
+    padding: 2rem 1rem;
+}
+
+footer a {
+    text-transform: uppercase;
+    color: rgb(238, 118, 5);
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icons i {
+    border-radius: 50%;
+    padding: 0.7rem;
+    margin: 0.2rem;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.fa-facebook-f {
+    border: 1px solid rgb(0, 0, 255);
+    color: rgb(0, 0, 255);
+}
+
+.fa-twitter {
+    border: 1px solid rgb(0, 191, 255);
+    color: rgb(0, 191, 255);
+}
+
+.fa-instagram {
+    color: rgb(99, 46, 170);
+    border: 1px solid rgb(99, 46, 170);
+
+}

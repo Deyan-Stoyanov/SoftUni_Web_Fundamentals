@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+html {
+    font-family: "Lato", sans-serif;
+}
+
+.site {
+    margin: 2rem 8rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 35rem;
+    overflow: hidden;
+    padding: 0;
+}
+
+.welcome {
+    background: linear-gradient(to bottom, rgba(230, 230, 230, 0.1), rgba(193, 70, 161, 0.75)), url("img/peak.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    width: 22rem;
+}
+
+.welcome i {
+    color: rgb(201, 201, 201);
+    font-size: 1.5rem;
+}
+
+.welcome h2 {
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+
+.welcome p {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.welcome-footer {
+    padding: 1rem;
+}
+
+.form {
+    border: 3px solid rgb(137, 32, 100);
+    margin: 0;
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+    width: 35%;
+}
+
+.close-icon {
+    display: block;
+    text-align: right;
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+    color: rgb(137, 32, 100);
+    margin-bottom: 4rem;
+}
+
+
+fieldset {
+    margin: 1rem 6rem;
+}
+
+fieldset,
+input {
+    border: none;
+}
+
+label {
+    color: rgba(53, 53, 53, 0.5);
+}
+
+input {
+    display: block;
+    margin-top: 0.5rem;
+    border-bottom: 1px solid rgb(49, 49, 49);
+    width: 15rem;
+    font-size: 1.3rem;
+}
+
+.form-footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(137, 32, 100);
+    color: rgb(255, 255, 255);
+    padding: 0.7rem;
+    border-radius: 25px;
+}
+
+.signup {
+    color: rgb(137, 32, 100);
+    text-shadow: 0 1px 1px rgb(49, 49, 49);
+}
