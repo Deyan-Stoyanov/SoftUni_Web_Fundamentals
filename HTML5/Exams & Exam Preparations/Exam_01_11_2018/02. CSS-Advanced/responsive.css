@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px) {
+
+    body,
+    main {
+        margin: 0;
+    }
+
+    main,
+    main section:nth-child(2) article img {
+        width: 100%;
+    }
+
+    main section:nth-child(2) article p {
+        margin: 1rem 1rem 1rem 0;
+    }
+
+    main section.left-to-right:first-child,
+    main section.left-to-right:nth-child(3) {
+        padding: 1.5rem;
+    }
+
+    main .left-to-right article {
+        width: auto;
+        height: auto;
+        border-radius: 50px;
+        padding: 1.5rem 2rem;
+        margin: 2rem 1rem;
+        text-align: center;
+    }
+
+    main section.left-to-right article p,
+    main section.left-to-right:nth-child(3) article p {
+        text-align: left;
+        line-height: 2.6rem;
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    main section.left-to-right article header p {
+        text-align: center;
+    }
+
+    button {
+        display: none;
+    }
+
+    main section:nth-child(2),
+    main section:nth-child(4) {
+        display: block;
+    }
+
+    form {
+        width: auto;
+        margin: 0 1rem;
+    }
+
+    section form label input,
+    section form textarea {
+        width: 90%;
+    }
+
+    #send {
+        display: block;
+        text-align: center;
+    }
+}
