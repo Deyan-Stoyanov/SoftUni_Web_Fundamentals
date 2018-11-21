@@ -1,0 +1,109 @@
+.site {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 4rem;
+}
+
+.site div {
+  color: white;
+  position: relative;
+  font-size: 1.5rem;
+  margin: 6rem 2rem 10rem 2rem;
+  width: 10rem;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.site-one-to-one {
+  position: relative;
+  height: auto;
+}
+
+.site-one-to-one:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}
+
+.site-sixteen-to-nine {
+  position: relative;
+  height: auto;
+}
+
+.site-sixteen-to-nine:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 56.25%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}
+
+.site-sixteen-to-ten {
+  position: relative;
+  height: auto;
+}
+
+.site-sixteen-to-ten:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 62.5%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}
+
+.site-nine-to-sixteen {
+  position: relative;
+  height: auto;
+}
+
+.site-nine-to-sixteen:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 177.77778%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}
+
+.site-three-to-two {
+  position: relative;
+  height: auto;
+}
+
+.site-three-to-two:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 66.66667%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}
+
+.site-two-to-three {
+  position: relative;
+  height: auto;
+}
+
+.site-two-to-three:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 150%;
+  position: absolute;
+  background-color: black;
+  z-index: -5;
+}

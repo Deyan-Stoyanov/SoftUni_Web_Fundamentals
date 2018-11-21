@@ -1,0 +1,47 @@
+@keyframes slideInLeft {
+  0% {
+    transform: translateY(-4rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0m);
+    opacity: 1;
+  }
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 5rem auto;
+}
+
+.items li {
+  opacity: 0;
+  width: 5rem;
+  height: 5rem;
+  background-color: black;
+  margin: 1rem;
+  list-style: none outside;
+  animation: slideInLeft 0.5s 1 ease forwards;
+}
+
+.items li:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.items li:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.items li:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.items li:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.items li:nth-child(5) {
+  animation-delay: 1s;
+}

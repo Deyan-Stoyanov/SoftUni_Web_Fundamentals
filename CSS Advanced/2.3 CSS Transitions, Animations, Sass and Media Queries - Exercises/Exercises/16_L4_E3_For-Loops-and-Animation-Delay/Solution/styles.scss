@@ -1,0 +1,35 @@
+@keyframes slideInLeft {
+    0% {
+        transform: translateY(-4rem);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0m);
+        opacity: 1;
+    }
+}
+
+.items {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 5rem auto;
+
+    li {
+        opacity: 0;
+        width: 5rem;
+        height: 5rem;
+        background-color: rgb(0, 0, 0);
+        margin: 1rem;
+        list-style: none outside;
+        animation: slideInLeft 0.5s 1 ease forwards;
+    }
+
+    @for $i from 1 through 5 {
+        & li:nth-child(#{$i}){
+            animation-delay: #{($i / 5)}s;
+        }
+    }
+}

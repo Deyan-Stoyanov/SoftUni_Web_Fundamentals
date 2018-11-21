@@ -1,0 +1,80 @@
+:root {
+  --font-size-initial: 14px;
+  --font-size-tablet: 16px;
+  --font-size-laptop: 18px;
+  --font-size-desktop: 20px;
+  --margin-side-site: 15rem;
+  --margin-top-site: 3rem;
+  --margin-contents: 2rem;
+  --margin-sidebar: 4rem;
+}
+
+html {
+  font-size: var(--font-size-initial, 14px);
+}
+
+.site {
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  border-bottom: 2px solid black;
+}
+
+.site-header h1,
+.site-header h5 {
+  margin-left: var(--margin-contents, 2rem);
+}
+
+.site-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-items: start;
+}
+
+.site-body section p {
+  margin: var(--margin-contents, 2rem);
+}
+
+.site-body aside ul {
+  margin: var(--margin-contents, 2rem);
+}
+
+.site-body aside ul li {
+  list-style-type: circle;
+}
+
+.site-footer {
+  border-top: 1px solid black;
+}
+
+.site-footer p {
+  margin-left: var(--margin-contents, 2rem);
+}
+
+@media screen and (min-width: 500px) {
+  html {
+    font-size: var(--font-size-tablet, 16px);
+  }
+  html .site {
+    margin: var(--margin-top-site, 3rem) var(--margin-side-site, 15rem);
+  }
+  html .site section {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  html {
+    font-size: var(--font-size-laptop, 18px);
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  html {
+    font-size: var(--font-size-desktop, 20px);
+  }
+}
